@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "country_item_model_checks": 2100,
+  "max_abs_metric_difference": 3.1126456967456306e-09,
+  "countries": 28,
+  "filter_combinations_per_country": 192,
+  "eligible_human_cohorts": 2461,
+  "source_database_sha256": "50f0839367cfcd411ac595b7e7ac40af3db79bac470a7b152f34ea000abcaf3f",
+  "release": "Aggregates only; no respondent records, profile identifiers, local file paths or credentials",
+  "thresholds": {
+    "valid_n": 50,
+    "effective_n": 30
+  },
+  "source_snapshot": "2026-09-21T08:28:29.807517+00:00"
+}

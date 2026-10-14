@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "checks": [
+    "file:// launch without a server",
+    "Mobile chart uses readable viewBox",
+    "Mobile adjustment fits viewport"
+  ],
+  "errors": []
+}

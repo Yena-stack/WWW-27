@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "errors": [],
+  "checks": [
+    "Independent France means",
+    "A/B contrast direction",
+    "All 15 items",
+    "Five model comparison",
+    "Crossed filters",
+    "Small-sample withholding",
+    "Weight mode",
+    "CSV export",
+    "Review JSON export",
+    "Adjustment model/sample selection",
+    "Coverage table",
+    "390px mobile overflow"
+  ]
+}

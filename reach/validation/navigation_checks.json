@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "checks": [
+    "Adjustment query parameters restored",
+    "Pinned A/B comparison restored",
+    "Mobile explorer/adjustment/methods fit viewport",
+    "Single header in DOM",
+    "GitHub project subdirectory asset paths"
+  ]
+}
