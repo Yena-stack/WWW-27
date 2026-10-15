@@ -1,0 +1,27 @@
+{
+  "confirmed_by": "User",
+  "confirmed_on": "2026-10-15",
+  "basis": "User explicitly confirmed model identities were entered incorrectly in experiment code and result files; GPT-4o mini was never used.",
+  "scope": "Diagnostic five-model data and all derived adjustment analyses, tables, figures, meeting slides and Web tools",
+  "mapping": [
+    {
+      "source_run_id": "gpt-4o-mini_temp0p3",
+      "recorded_name": "gpt-4o-mini",
+      "corrected_model_id": "gpt-5.6-luna",
+      "display_name": "GPT-5.6 Luna"
+    },
+    {
+      "source_run_id": "gpt-5.6-luna_temp1",
+      "recorded_name": "gpt-5.6-luna",
+      "corrected_model_id": "gpt-oss-120b",
+      "display_name": "GPT-OSS-120B"
+    },
+    {
+      "source_run_id": "ministral-3-8b_temp0p3",
+      "recorded_name": "ministral-8b-latest",
+      "corrected_model_id": "deepseek-v4-flash",
+      "display_name": "DeepSeek V4 Flash"
+    }
+  ],
+  "preserved": "Raw response files, source paths, source_run_id values, recorded model metadata, scores, temperatures and statistical results. These are archival identifiers, not model identity claims. Separate GPT-OSS historical and follow-up response sets remain separate datasets of the same model."
+}

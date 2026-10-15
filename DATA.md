@@ -3,7 +3,7 @@
 ## Diagnostic explorer
 - Source: verified local WVS/EVS and completed five-model response index.
 - Human respondents: 45,036. LLM response sets: 1,400,000.
-- Models: GPT-4o mini; GPT-5.6 Luna; Qwen3.5 9B; Ministral 3 8B; Mistral Small 4.
+- Models: GPT-5.6 Luna; GPT-OSS-120B; Qwen3.5 9B; DeepSeek V4 Flash; Mistral Small 4.
 - 28 countries/regions, 15 items, 192 supported filter combinations per country.
 - Human weights: WVS W_WEIGHT and EVS gwght; positive finite weights only.
 - Item records are `[valid_n, effective_n, probability_1, ..., probability_K]`. No probability entries means the estimate does not meet the public reporting threshold. The absence of a PMF must never be interpreted as zero responses.
@@ -26,3 +26,7 @@ All 2,100 national country–item–model cells were checked against the paper's
 
 ## References
 Data and method links are in the site's Data & methods tab. WVS/EVS access conditions continue to apply to their source data. Rebuilding requires authorized access to the original local index; the website itself uses the released aggregates only.
+
+
+## Model identity correction (2026-10-15)
+The researcher confirmed that the recorded GPT names were incorrect: `gpt-4o-mini_temp0p3` contains GPT-5.6 Luna responses, and `gpt-5.6-luna_temp1` contains GPT-OSS-120B responses. GPT-4o mini was not used. Source run identifiers remain unchanged for traceability. Display labels are corrected; response probabilities, sample counts and all metrics are unchanged. Separate GPT-OSS follow-up and historical response sets remain separate datasets of the same model.
